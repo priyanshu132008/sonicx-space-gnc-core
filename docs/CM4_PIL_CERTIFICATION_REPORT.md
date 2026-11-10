@@ -27,7 +27,7 @@ An independent cross-check holds: the server's own FTS latch counter (25 latches
 
 | Property | Value (measured on target) |
 |---|---|
-| Board (device-tree) | Raspberry Pi 4 Model B Rev 1.5 (referred to as "CM4" in program documentation) |
+| Board (device-tree) | Raspberry Pi 4 Model B Rev 1.5  |
 | SoC | Broadcom BCM2711 |
 | CPU | Quad-core ARM **Cortex-A72**, 64-bit `aarch64` (`uname -m` = `aarch64`) |
 | Clock | `arm_freq=1800` — 1.8 GHz fixed (max rated) |
