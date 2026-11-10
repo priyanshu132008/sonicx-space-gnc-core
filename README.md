@@ -1,7 +1,7 @@
 # SonicX Space GNC Core — TRL 4 Verification Dossier
 
 **Entity:** Sonic Space Technologies Private Limited (SonicX)
-**Submission Scope:** Technical Facilitation & Seed Grant Application (IN-SPACe / ISRO Evaluation)
+**Submission Scope:** Technical Facilitation & Venture Seed Round, & Grant Evaluation(IN-SPACe / ISRO Evaluation / Y Combinator / a16z)
 **Core Technology:** Neuro-Symbolic Flight Computer (PPO Actor Policy + `#![no_std]` Rust Safety Gatekeeper)
 
 ---
@@ -21,7 +21,7 @@ Sonic Space Technologies is developing a **6-DOF Neuro-Symbolic Flight Computer*
 ### A. Processor-in-the-Loop (PIL) — Target Silicon Certification
 
 - **Hardware Target:** Broadcom BCM2711 (ARM Cortex-A72 @ 1.8 GHz, 4 GB RAM).
-- **Execution Latency:** Steady-state median compute time **p50 = 1.36 ms** (p95 = 1.55 ms, worst-case peak = 4.81 ms under synthetic load). Consumes < 49% of the available 10 ms control loop budget.
+- **Execution Latency:** Steady-state median compute time **p50 = 1.36 ms** (p95 = 1.55 ms, Best-case under 14% of a 10.0 ms budget (worst-case peak = 4.81 ms under synthetic load). Consumes < 49% of the available 10 ms control loop budget.
 - **Memory Safety:** Resident set size (VmRSS) settled flat at ~27.6 MB with an 84 KB steady-state band, verifying **0 KB dynamic heap memory leakage**.
 - **Physical Anomaly Gauntlet:** **100% survival/abort determinism** (50/50 valid responses) under simulated IMU dropouts and actuator lockups.
 
