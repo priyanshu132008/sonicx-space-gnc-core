@@ -1,4 +1,4 @@
-# Sonic Space Technologies Private Limited — CM4 Processor-in-the-Loop (PIL) Hardware Certification Report
+# Sonic Space Technologies Private Limited — ARM CORTEX  Processor-in-the-Loop (PIL) Hardware Certification Report
 
 **Program:** SonicX Hybrid Neuro-Symbolic Flight Computer — V4 6-DOF Stack
 **Certification authority framework:** IN-SPACe / ISRO IV&V-style hardware anomaly campaign
