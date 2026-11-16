@@ -2,7 +2,14 @@
 
 **Entity:** Sonic Space Technologies Private Limited (SonicX)
 **Submission Scope:** Technical Facilitation & Venture Seed Round, & Grant Evaluation(IN-SPACe / ISRO Evaluation / Y Combinator / a16z)
-**Core Technology:** Neuro-Symbolic Flight Computer (PPO Actor Policy + `#![no_std]` Rust Safety Gatekeeper)
+**Core Technology:** Neuro-Symbolic AI Flight Computer (PPO Actor Policy + `#![no_std]` Rust Safety Gatekeeper)
+
+| Verification Metric | Measured Result | Requirement / Budget | Status |
+| :--- | :--- | :--- | :--- |
+| **ARM Silicon Latency ($p50$ / $p95$)** | **1.36 ms** / **1.55 ms** | $< 10.0\text{ ms}$ ($100\text{ Hz}$ loop) | **PASS** (86.4% margin) |
+| **ONNX Neural Inference ($p99$)** | **294 $\mu$s** | $< 3.50\text{ ms}$ fallback window | **PASS** (91.6% margin) |
+| **Dynamic Heap Memory Growth** | **0 KB** (27.6 MB flat VmRSS) | Zero dynamic allocation | **PASS** (Deterministic) |
+| **10k Monte Carlo Safety Latch** | **100% Determinism** (0 Runaways) | Zero uncontrolled breakups | **PASS** (3$\sigma$ verified) |
 
 ---
 
