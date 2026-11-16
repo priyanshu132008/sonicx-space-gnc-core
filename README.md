@@ -28,14 +28,13 @@ Sonic Space Technologies is developing a **6-DOF Neuro-Symbolic Flight Computer*
 **Primary Dossier:** [`docs/CM4_PIL_CERTIFICATION_REPORT.md`](docs/CM4_PIL_CERTIFICATION_REPORT.md)
 
 ### B. Software-in-the-Loop (SIL) — 10,000-Flight RK4 Monte Carlo
-* **Adversarial Stress-Test Campaign:** Intentionally injected compound $3\sigma$ catastrophic failures across 10,000 runs specifically to verify the `#![no_std]` Rust Gatekeeper's termination boundaries—resulting in **9,800 deterministic aborts (98.00%)** under unflyable severe wind shear, 100,480 packet drops, and 621 SEU bit-flips, with **zero runaway hazards**.
-
-- **Compute Volume:** **103.8 core-hours** of real 4th-Order Runge-Kutta (RK4) numerical physics integration across 10,000 independent flight profiles.
-- **Infrastructure Reliability:** **0.00%** infrastructure or memory crash errors across 10,000 sessions.
-- **Safety Latch Determinism:** **9,800 valid aborts (98.00%)** executed by the Rust Gatekeeper under severe 3σ wind shear, 100,480 packet drops, and 621 radiation single-event upset (SEU) bit-flips. Zero runaway hazards.
-- **Neural Execution Speed:** ONNX inference **p99 latency bounded at 294 μs** (8.4% of the 3.5 ms fallback budget).
-
-**Primary Dossier:** [`docs/HIL_PREQUAL_10K_MONTE_CARLO.md`](docs/HIL_PREQUAL_10K_MONTE_CARLO.md)
+* **Adversarial Stress-Test Campaign:** Intentionally injected compound $3\sigma$ catastrophic failures across 10,000 runs specifically to stress-test the `#![no_std]` Rust Gatekeeper's termination boundaries under physically unflyable conditions.
+* **Safety Latch Determinism:** Executed **9,800 valid aborts (98.00%)** cleanly against severe $3\sigma$ wind shear, 100,480 packet drops, and 621 radiation single-event upset (SEU) bit-flips, with **zero runaway hazards** or spurious triggers.
+* **Compute Volume:** 103.8 core-hours of real 4th-Order Runge-Kutta (RK4) numerical physics integration across 10,000 independent flight profiles.
+* **Infrastructure Reliability:** 0.00% infrastructure or memory crash errors across 10,000 sessions.
+* **Neural Execution Speed:** ONNX inference $p99$ latency bounded at **294 μs** (8.4% of the 3.5 ms fallback budget).
+* **Primary Dossier:** `docs/HIL_PREQUAL_10K_MONTE_CARLO.md`
+* 
 
 ## 3. Repository Architecture & Asset Inventory
 
