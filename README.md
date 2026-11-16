@@ -7,9 +7,9 @@
 | Verification Metric | Measured Result | Requirement / Budget | Status |
 | :--- | :--- | :--- | :--- |
 | **ARM Silicon Latency ($p50$ / $p95$)** | **1.36 ms** / **1.55 ms** | $< 10.0\text{ ms}$ ($100\text{ Hz}$ loop) | **PASS** (86.4% margin) |
-| **ONNX Neural Inference ($p99$)** | **294 $\mu$s** | $< 3.50\text{ ms}$ fallback window | **PASS** (91.6% margin) |
+| **ONNX Neural Inference ($p99$)** | **294 µs** | $< 3.50\text{ ms}$ fallback window | **PASS** (91.6% margin) |
 | **Dynamic Heap Memory Growth** | **0 KB** (27.6 MB flat VmRSS) | Zero dynamic allocation | **PASS** (Deterministic) |
-| **10k Monte Carlo Safety Latch** | **100% Determinism** (0 Runaways) | Zero uncontrolled breakups | **PASS** (3$\sigma$ verified) |
+| **10k Monte Carlo Safety Latch** | **100% Determinism** (0 Runaways) | Zero uncontrolled breakups | **PASS** (3σ verified) |
 
 ---
 
