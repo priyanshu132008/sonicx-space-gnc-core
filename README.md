@@ -28,7 +28,8 @@ Sonic Space Technologies is developing a **6-DOF Neuro-Symbolic Flight Computer*
 **Primary Dossier:** [`docs/CM4_PIL_CERTIFICATION_REPORT.md`](docs/CM4_PIL_CERTIFICATION_REPORT.md)
 
 ### B. Software-in-the-Loop (SIL) — 10,000-Flight RK4 Monte Carlo
-
+* **Adversarial Stress-Test Campaign:** Intentionally injected compound $3\sigma$ catastrophic failures across 10,000 runs specifically to verify the `#![no_std]` Rust Gatekeeper's termination boundaries—resulting in **9,800 deterministic aborts (98.00%)** under unflyable severe wind shear, 100,480 packet drops, and 621 SEU bit-flips, with **zero runaway hazards**.
+* 
 - **Compute Volume:** **103.8 core-hours** of real 4th-Order Runge-Kutta (RK4) numerical physics integration across 10,000 independent flight profiles.
 - **Infrastructure Reliability:** **0.00%** infrastructure or memory crash errors across 10,000 sessions.
 - **Safety Latch Determinism:** **9,800 valid aborts (98.00%)** executed by the Rust Gatekeeper under severe 3σ wind shear, 100,480 packet drops, and 621 radiation single-event upset (SEU) bit-flips. Zero runaway hazards.
