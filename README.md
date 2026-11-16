@@ -64,4 +64,4 @@ sonicx-space-gnc-core/
 
 ---
 
-© 2026 Sonic Space Technologies Private Limited. All rights reserved. See [LICENSE](LICENSE).
+© 2026 SonicX Space Technologies Private Limited. All rights reserved. See [LICENSE](LICENSE).
