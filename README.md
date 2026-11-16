@@ -33,8 +33,7 @@ Sonic Space Technologies is developing a **6-DOF Neuro-Symbolic Flight Computer*
 * **Compute Volume:** 103.8 core-hours of real 4th-Order Runge-Kutta (RK4) numerical physics integration across 10,000 independent flight profiles.
 * **Infrastructure Reliability:** 0.00% infrastructure or memory crash errors across 10,000 sessions.
 * **Neural Execution Speed:** ONNX inference $p99$ latency bounded at **294 μs** (8.4% of the 3.5 ms fallback budget).
-* **Primary Dossier:** `docs/HIL_PREQUAL_10K_MONTE_CARLO.md`
-* 
+**Primary Dossier:** [`docs/HIL_PREQUAL_10K_MONTE_CARLO.md`](docs/HIL_PREQUAL_10K_MONTE_CARLO.md)
 
 ## 3. Repository Architecture & Asset Inventory
 
