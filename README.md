@@ -1,7 +1,8 @@
 # SonicX Space GNC Core — TRL 4 Verification Dossier
 
 **Entity:** SonicX Space Technologies Private Limited (SonicX Space)
-**Submission Scope:** Technical Facilitation & Venture Seed Round, & Grant Evaluation (IN-SPACe / ISRO Evaluation / Y Combinator / a16z / Surge peak xv)
+**Submission Scope:** Technical Facilitation, Institutional Seed & Aerospace Grant Evaluation (IN-SPACe / ISRO / Commercial HIL Partners)
+
 
 **Core Technology:** Neuro-Symbolic AI Flight Computer (PPO Actor Policy + `#![no_std]` Rust Safety Gatekeeper)
 
