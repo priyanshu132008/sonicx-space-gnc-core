@@ -16,7 +16,7 @@
 
 ## 1. Executive Summary & Tech Moat
 
-Sonic Space Technologies is developing a **6-DOF Neuro-Symbolic Flight Computer** for real-time launch vehicle attitude control and orbital insertion. Our architecture merges the adaptive power of deep reinforcement learning with the rigid mathematical determinism of a compile-time-verified Rust Gatekeeper.
+SonicX Space Technologies is developing a **6-DOF Neuro-Symbolic Flight Computer** for real-time launch vehicle attitude control and orbital insertion. Our architecture merges the adaptive power of deep reinforcement learning with the rigid mathematical determinism of a compile-time-verified Rust Gatekeeper.
 
 ### The Neuro-Symbolic Advantage
 
@@ -48,7 +48,7 @@ Sonic Space Technologies is developing a **6-DOF Neuro-Symbolic Flight Computer*
 
 ```text
 sonicx-space-gnc-core/
-├── LICENSE                             # Proprietary Notice (Sonic Space Tech)
+├── LICENSE                             # Proprietary Notice (SonicX Space Tech)
 ├── README.md                           # Master Verification Summary
 ├── data/
 │   ├── mc_10k_section6_stats.md        # Auto-generated 10k Monte Carlo stats
@@ -63,7 +63,7 @@ sonicx-space-gnc-core/
 └── src/
     └── pil_server.cpp                  # Native C++ Execution Driver
 ```
-
+Note: This repository contains TRL 4 verification benchmarks and the C-ABI interface header only. The core AI Flight Computer binary is proprietary and provided exclusively to HIL evaluation partners as a stripped, target-compiled static library under a Mutual NDA.
 ---
 
 © 2026 SonicX Space Technologies Private Limited. All rights reserved. See [LICENSE](LICENSE).
